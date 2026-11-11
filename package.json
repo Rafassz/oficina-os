@@ -1,0 +1,17 @@
+{
+  "name": "oficina",
+  "private": true,
+  "workspaces": [
+    "api",
+    "web"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c yellow,cyan \"npm run dev -w api\" \"npm run dev -w web\"",
+    "seed": "npm run seed -w api",
+    "build": "npm run build -w api && npm run build -w web",
+    "typecheck": "npm run typecheck -w api && npm run typecheck -w web"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
