@@ -1,0 +1,5 @@
+export * from './create'
+export * from './delete'
+export * from './get-all-clientes'
+export * from './get-cliente-detalhe'
+export * from './update'

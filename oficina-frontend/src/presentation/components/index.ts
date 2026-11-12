@@ -1,0 +1,5 @@
+export * from './alert-container/AlertContainer'
+export * from './aviso/Aviso'
+export * from './paginacao/Paginacao'
+export * from './placa/Placa'
+export * from './status-tag/StatusTag'

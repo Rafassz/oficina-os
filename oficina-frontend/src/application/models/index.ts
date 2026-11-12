@@ -1,0 +1,6 @@
+export * from './ICliente'
+export * from './ICommonModel'
+export * from './IDashboardSummary'
+export * from './IOrdemServico'
+export * from './IUsuario'
+export * from './IVeiculo'
